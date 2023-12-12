@@ -1,5 +1,4 @@
 Functions
-os
 plotly.graph_objects
 dash_mantine_components
 scipy.stats
