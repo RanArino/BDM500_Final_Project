@@ -43,4 +43,9 @@ design.callbacks()
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    # Get the PORT number from environment variables
+    port = os.getenv('PORT', default=8050)
+    # Convert port into an integer because environment variables are strings
+    port = int(port)
+    # Run the app on the specified port
+    app.run_server(debug=True, host='0.0.0.0', port=port)
