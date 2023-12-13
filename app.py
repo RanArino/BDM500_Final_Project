@@ -21,6 +21,7 @@ app = Dash(external_stylesheets=[
     dbc.themes.DARKLY,
     "https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     ])
+saver = app.server
 
 design = Design(app, origin_df, current_dir)
 
@@ -41,6 +42,5 @@ app.layout = dbc.Container([
 # define all callbacks
 design.callbacks()
 
-
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run_server(debug=True)
