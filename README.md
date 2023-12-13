@@ -37,7 +37,7 @@ python app.py
 ```
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](License) file for details.
 
 ## Contact
 Ran Arino - [LinkedIn](https://www.linkedin.com/in/ran-arino-25253022b/) - rarino@myseneca.ca
